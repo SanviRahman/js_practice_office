@@ -7,12 +7,7 @@ function add(a,b,callback)
     let sum=0;
     sum=a+b;
 
-    if(callback)
-    {
-        callback(sum);
-    }
-
-    return sum;
+    callback(sum);
 }
 
 add(5,6,display);

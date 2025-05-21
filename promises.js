@@ -24,7 +24,7 @@ promise1
         console.error("Promise1 error:", err);
     });
 
-// ✅ Add a catch for promise2 as well
+
 promise2
     .then((res) => {
         console.log(res);
