@@ -9,3 +9,4 @@ const person={
     }
 }
 console.log(person.fullName(),person.age);
+console.log(person.gender);
