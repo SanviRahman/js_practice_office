@@ -6,5 +6,7 @@ const person={
         console.log("Hi, "+ this.name+ "\nAge:"+this.age);
     }
 }
-const greetFunction=person.greet;
+// const greetFunction=person.greet; Answer is: Undefine
+const greetFunction=person.greet.bind(person); 
 greetFunction();
+console.log(person)
