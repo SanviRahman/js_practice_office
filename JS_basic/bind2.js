@@ -1,6 +1,6 @@
 function printMe()
 {
-    console.log("Hello, "+ this.name);//akhane this global hishabe ase
+    console.log("Hello, "+ this.name+"\nAge is:" + this.age);//akhane this global hishabe ase
 }
 
 let obj1={
