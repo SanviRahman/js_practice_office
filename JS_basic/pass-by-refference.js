@@ -3,7 +3,7 @@ var obj={
 }
 function myFunc(obj)
 {
-    obj.b+=100;
+    obj.b=obj.b+100;
     console.log(obj.b);//120
 }
 myFunc(obj);
