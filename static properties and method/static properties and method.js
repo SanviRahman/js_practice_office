@@ -1,11 +1,11 @@
 class Counterr{
-    static count=0;
+    static #count=0;
 
     static increment(){
-        Counterr.count++;
+        Counterr.#count++;
     }
     static getCounter(){
-        return Counterr.count;
+        return Counterr.#count;
     }
 }
 Counterr.increment();
