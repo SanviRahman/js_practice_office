@@ -21,7 +21,6 @@ class Man {
         this.#age = value;
     }
 
-
     getFullName(){
         return `${this.fName} ${this.lName}`;
     }
