@@ -15,7 +15,7 @@ class Man {
     }
 
     set age(value) {
-        if (value < 18) {
+        if (value <= 18) {
             throw new Error("Age negative hote pare na");
         }
         this.#age = value;
