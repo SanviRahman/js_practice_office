@@ -15,7 +15,7 @@ class Man {
     }
 
     set age(value) {
-        if (value < 0) {
+        if (value < 18) {
             throw new Error("Age negative hote pare na");
         }
         this.#age = value;
@@ -28,5 +28,5 @@ class Man {
 
 }
 let obj11 = new Man(18, "Sanvi", "Rahman");
-obj11.age=20;
+obj11.age=18;
 console.log(obj11.age);
