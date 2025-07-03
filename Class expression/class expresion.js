@@ -1,0 +1,3 @@
+/*
+class expression mane akta variable er moddhe class assign kora 
+*/
