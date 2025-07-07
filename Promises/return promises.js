@@ -8,7 +8,7 @@ function getUsers() {
                     { name: "Shanto", age: 24 },
                 ])
             }
-            else{
+            else {
                 reject("Error Object");
             }
         }, 1000);
