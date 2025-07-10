@@ -5,7 +5,8 @@ let person={
 
 function increaseAge(obj){
     obj.age+=1;
+    console.log(obj.age);//26
 }
 
 increaseAge(person);
-console.log(person.age);
+console.log(person.age);//26
