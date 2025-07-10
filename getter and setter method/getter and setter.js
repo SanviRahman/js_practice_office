@@ -5,7 +5,7 @@ class Man {
 
 
     constructor(age,fName,lName) {
-        this.age = age;
+        this.#age = age;
         this.fName = fName;
         this.lName = lName;
     }
